@@ -79,6 +79,7 @@ end
 
 describe "#multiply" do
 
+<<<<<<< HEAD
   it "multiplies two numbers" do
 	multiply([4,7]).should == 28
 	end
@@ -96,10 +97,21 @@ describe "#power" do
   it "raises two to the zero" do
 	power(2,0).should ==1
 	end
+=======
+  it "multiplies two numbers"
+
+  it "multiplies several numbers"
+
+end
+
+describe "#power" do
+  it "raises one number to the power of another number"
+>>>>>>> 9949b1b78240194ef4c092f576639249e61c8232
 end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
+<<<<<<< HEAD
   it "computes the factorial of 0" do
 	factorial(0).should == 1	 #0! is 1, not 0
   end
@@ -118,4 +130,11 @@ describe "#factorial" do
   it "computes the factorial of 10" do
 	factorial(10).should == 3628800
   end
+=======
+  it "computes the factorial of 0"
+  it "computes the factorial of 1"
+  it "computes the factorial of 2"
+  it "computes the factorial of 5"
+  it "computes the factorial of 10"
+>>>>>>> 9949b1b78240194ef4c092f576639249e61c8232
 end
