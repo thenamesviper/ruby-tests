@@ -38,8 +38,8 @@ describe "#translate" do
 
   it "translates two words" do
     s = translate("eat pie")
-    s.should == "eatay iepay"
-  end
+   s.should == "eatay iepay"
+ end
 
   it "translates a word beginning with three consonants" do
     translate("three").should == "eethray"
@@ -58,7 +58,7 @@ describe "#translate" do
   it "counts 'qu' as a consonant even when it's preceded by a consonant" do
     s = translate("square")
     s.should == "aresquay"
-  end
+ end
 
   it "translates many words" do
     s = translate("the quick brown fox")
