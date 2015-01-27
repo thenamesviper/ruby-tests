@@ -14,6 +14,7 @@
 require "simon_says"
 
 describe "Simon says" do
+
   describe "echo" do
     it "should echo hello" do
       echo("hello").should == "hello"
@@ -76,12 +77,12 @@ describe "Simon says" do
   end
 
   describe "titleize" do
-    it "capitalizes a word" do
-      titleize("jaws").should == "Jaws"
+   it "capitalizes a word" do
+     titleize("jaws").should == "Jaws"
     end
 
-    it "capitalizes every word (aka title case)" do
-      titleize("david copperfield").should == "David Copperfield"
+   it "capitalizes every word (aka title case)" do
+     titleize("david copperfield").should == "David Copperfield"
     end
 
     it "doesn't capitalize 'little words' in a title" do
